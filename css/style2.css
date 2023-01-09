@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    font-family: "Arial Black";
+}
+nav{
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#header{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://www.techno-cure.com/wp-content/uploads/2019/06/service-banner8.jpg");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+#c1{
+    width: 550px;
+    color: white;
+    line-height: 50px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.icones{
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width: 80px;
+    margin-left: 100px;
+}
+.txt{
+    padding: 5px;
+    text-align: justify;
+}
